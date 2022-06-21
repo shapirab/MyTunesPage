@@ -1,0 +1,59 @@
+/* button */
+.btn{
+    padding: 1.5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border: none;
+    color: var(--text-color__white);
+}
+
+.btn--danger{
+    background-color: rgb(232, 60, 60);   
+}
+
+.btn--primary{
+    background-color: rgb(87, 39, 184);
+}
+
+/* list */
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2rem;   
+}
+
+.list__border{
+    background-color: var(--text-color__gray);
+    height: 0.1rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.list__header{
+    font-weight: 500;
+    color: var(--text-color__white);
+    text-transform: capitalize;
+    margin-bottom: 0;
+    line-height: 3px;
+}
+
+.list__details{
+    display: flex;
+    flex-direction: column;
+}
+
+.list__details li{
+    margin-bottom: 0.2rem;
+}
+
+.list__details a{
+    color: var(--text-color__light-gray);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+
+
