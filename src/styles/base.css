@@ -10,15 +10,19 @@ body{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 p{
     font-size: 2rem;
+}
+
+.small-text{
+    font-size: 1.5rem;
 }
 
 ul{
@@ -29,4 +33,9 @@ ul{
 
 li a{
     text-decoration: none;    
+}
+
+img{
+    width: 80%;
+    padding: 2.5rem 0;
 }

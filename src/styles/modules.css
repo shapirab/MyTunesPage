@@ -1,14 +1,15 @@
 /* button */
 .btn{
-    padding: 1.5rem;
+    padding: 2rem;
     text-transform: capitalize;
     font-size: 1.5rem;
     border: none;
     color: var(--text-color__white);
+    margin: 2rem 0;
 }
 
 .btn--danger{
-    background-color: rgb(232, 60, 60);   
+    background-color: rgb(172, 16, 16);   
 }
 
 .btn--primary{
@@ -53,6 +54,39 @@
     font-size: 1.5rem;
     text-transform: capitalize;
     line-height: 2rem;
+}
+
+/* Gift cards */
+.gift_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.gift_card h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.gift_card p{
+    line-height: 1.5;
+    color: var(--text-color__dark-gray);    
+}
+
+.gift_card__border{
+    background-color: rgb(171, 161, 161);
+    height: 0.1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.gift_card__link{
+    text-decoration: none;
+    color: var(--text-color__dark-gray);
+    font-size: 2rem;
 }
 
 
